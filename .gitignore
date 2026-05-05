@@ -5,6 +5,12 @@
 !.geollm-recovered/
 !.geollm-recovered/*.py
 
+# Bare-metal closure kernel (C implementation)
+!kernel/
+!kernel/Makefile
+!kernel/*.c
+!kernel/*.h
+
 # CI
 !.github/
 !.github/workflows/
