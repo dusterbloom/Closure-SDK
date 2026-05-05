@@ -1,6 +1,10 @@
 # Ignore everything, allowlist what ships
 *
 
+# GeoLLM weekend exploration (Peppi's fork) — code only, not run artifacts
+!.geollm-recovered/
+!.geollm-recovered/*.py
+
 # CI
 !.github/
 !.github/workflows/
